@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.footer {
+     background-color: #fff;
+     padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    max-width: 900px;
+    text-align: center;
+}
+.footer-logo{
+    font-size: 64px;
+    font-weight: bolder;
+     color: #4E47FF;
+    margin-bottom: 20px;
+   
+}
+.footer-description{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+.footer-nav{
+display: flex;
+justify-content: center;
+gap: 40px;
+flex-wrap: wrap;
+
+
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+     transition: color 0.3s ease;
+}
+.footer-nav a:hover{
+    color: #2f55d4;
+}
+
+    </style>
+    <link rel="stylesheet" href="./assignment.css">
+    
+
+
+</head>
+<body class="open-sans-normal">
+    <header class="header">
+        <nav>
+            <h3 class="nav-tittle"><span class="text-primary">LOGO</span></h3>
+            <button class="btn-primary">Sign up</button>
+        </nav>
+        <div class="banner-section">
+            <h1 class="banner-tittle">Cool Dark UI Template for<br> Webflow Agencies! </h1>
+            <button class="btn-primary">Stay Focused</button>
+        </div>
+    </header>
+    <main>
+        <div style="min-height: 70vh; padding: 20px;"></div>
+        <section class="preview-section">
+            <div class="action-content">
+                <div class="text-content">
+                    <h2>See it in Action</h2>
+                    <p>Explore the live preview and imagine your brand in this bold new look.</p>
+                    <button class="btn-primary">Launch Live Preview</button>
+                </div>
+                <div class="image-content">
+                    <img src="./Assets/styles/Assets/wc-mini.png" alt="Image Loading">
+                </div>
+            </div>
+
+        </section>
+        <section class="Users-number">
+            <div class="container">
+                <div class="box-wrapper">
+                <h2 class="heading">Joined Thousands of Productive Users</h2>
+                <div class="stats">
+                <div class="box">
+                    <div class="number">50K</div>
+                    <div class="user-type">Active Users</div>
+                </div>
+                <div class="box">
+                    <div class="number">2M+</div>
+                    <div class="user-type">Focus Session</div>
+                </div>
+                <div class="box">
+                    <div class="number">95%</div>
+                    <div class="user-type">Satisfaction Rate</div>
+                     </div>
+                 </div>
+           </div>
+        </div>
+        </section>
+        <section class="review-section">
+        <div class="review">
+                <h2 class="review-heading">What our users say</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="./Assets/styles/Assets/5star.png" alt="5stars" class="stars">
+                        <h3>Loved by Designers</h3>
+                        <p class="quote">"This template instantly leveled up our presence."-Studio vertex</p>       
+                           <div class="reviewer">
+                            <img src="./Assets/styles/Assets/avatar.png" alt="Reviewer" class="reviewer-image" >
+                            <div class="reviewer-info">
+                            <p class="reviewer-name">Reviewer name</p>
+                            <p class="reviewer-info">Date</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                        <img src="./Assets/styles/Assets/5star.png" alt="5stars" class="stars">
+                        <h3>Loved by Designers</h3>
+                        <p class="quote">"This template instantly leveled up our presence."-Studio vertex</p>       
+                           <div class="reviewer">
+                            <img src="./Assets/styles/Assets/avatar.png" alt="Reviewer" class="reviewer-image">
+                            <div class="reviewer-info">
+                            <p class="reviewer-name">Reviewer name</p>
+                            <p class="reviewer-date">Date</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                        <img src="./Assets/styles/Assets/5star.png" alt="5stars" class="stars">
+                        <h3>Loved by Designers</h3>
+                        <p class="quote">"This template instantly leveled up our presence."-Studio vertex</p>       
+                           <div class="reviewer">
+                            <img src="./Assets/styles/Assets/avatar.png" alt="Reviewer" class="reviewer-image" >
+                            <div class="reviewer-info">
+                            <p class="reviewer-name">Reviewer name</p>
+                            <p class="reviewer-date">Date</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="full-form">
+            <div class="form-container">
+                <h1>Let's Get <br>in Touch</h1>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email"  id="email" placeholder="example@email.com">
+                    <label for="name">Name</label>
+                    <input type="text"  id="name" placeholder="Full name">
+                    <label for="message">Message</label>
+                   <textarea  id="message" rows="4" placeholder="Write your message.."></textarea>
+                   <button class="btn-primary">Get in Touch</button>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+        <div class="footer-logo">LOGO</div>
+        <p class="footer-description">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+        <nav class="footer-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Works</a>
+            <a href="#">Services</a>
+
+        </nav> 
+        </div>
+    </footer>
+</body>
+</html>

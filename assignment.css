@@ -1,0 +1,270 @@
+
+
+
+.text-primary{
+ color: #4E47FF;
+ opacity: 100%;
+ line-height: 150%;
+ height:48px;
+    width: 132px;
+    font-size: 35px;
+    margin-top: 10px;
+    
+}
+.header{
+    background-image: url('./Assets/styles/Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 160px;
+    
+}
+.nav-tittle{
+    font-size: 34px;
+}
+   .banner-tittle{
+    font-size: 50px;
+    margin: 0px;
+   } 
+   
+
+.btn-primary{
+    width: auto;
+    height: 48px;
+    text-align: center;
+    opacity: 100%;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius:10px ;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 15px 30px;
+    box-shadow: 0 5px 12px rgba(red, green, blue, alpha);
+    transition: all 0.3s ease;
+    white-space: nowrap;
+   
+}
+.btn-primary:hover{
+    background: rgb(38, 0, 255);
+    transform: scale(1.05)
+}
+.banner-section{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+}
+.preview-section{
+   margin: 0;
+    background-color: #FFFFFF;
+    font-family: 'Segoe Ui', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 80px 60px;
+}  
+ .action-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    
+}
+.text-content{
+    max-width: 650px;
+   
+}
+.text-content h2{
+
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #252432;
+    
+   
+}
+.text-content p{
+    font-size: 28px;
+    color: #252432;
+    margin-bottom: 32px;
+    line-height: 1.8;
+}
+.image-content{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    display: block;
+    overflow: hidden;
+}
+
+
+.Users-number{
+    background-color: #FFFFFF;
+    
+    padding: 80px 20px;
+    text-align: center;
+}
+.box-wrapper{
+    background-color: #d4d3ef ;
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #252432;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.box{
+    min-width: 180px;
+}
+.number{
+    font-size: 48px;
+    font-weight: 800;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+.user-type{
+    font-size: 18px;
+    color:#000000 ;
+}
+.review-section{
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.review-heading{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #111;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    background-color: #fafafa;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+.card .stars{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.card h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+}
+.card .quote{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.reviewer-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.reviewer-info .reviewer-name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+.reviewer-info .reviewer-info{
+    font-size: 13px;
+   color: #999;
+   margin: 0;
+}
+.full-form{
+    display: flex;
+    
+   justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+font-family: Arial, sans-serif;
+}
+    
+.contact-section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #cad4eb;
+    
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 80px;
+    
+    justify-content: space-between;
+    width: 800px;
+    background-color: #fff;
+    border: none;
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   /* width: 1200px;*/
+   
+   font-size: 25px;
+    
+   
+}
+label{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+input[type="email"],input[type="text"],textarea{
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+   width: 100%;
+   box-sizing: border-box;
+}
+
